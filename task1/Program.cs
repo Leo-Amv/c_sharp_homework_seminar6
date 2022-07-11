@@ -1,6 +1,6 @@
 ﻿namespace Seminar6
 {
-    class Task41
+    class Task41 // Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
     {
         public static int CountNumbers(int[] array) // Метод подсчитывает количество чисел в массиве больше 0
         {
