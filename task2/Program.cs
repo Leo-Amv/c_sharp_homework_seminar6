@@ -16,7 +16,8 @@
                 float b2 = Convert.ToSingle(Console.ReadLine());
                 Console.WriteLine("Enter number k2 : ");
                 float k2 = Convert.ToSingle(Console.ReadLine());
-                if (k1 == k2) Console.WriteLine("Intersection point does not exist! Lines are parallel!");
+                if (k1 == k2 && b1 != b2) Console.WriteLine("Intersection point does not exist! Lines are parallel!");
+                else if (k1 == k2 && b1 == b2) Console.WriteLine("Lines match! Lines have an infinite number of points in common!");
                 else
                 {
                     float x = (b2 - b1) / (k1 - k2);
